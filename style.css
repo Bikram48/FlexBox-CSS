@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main #header {
+    height: 100px;
+    background-color: black;
+}
+
+#main #header #nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+}
+
+#nav h2 {
+    color: #4CAF50;
+}
+
+#main #header #nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    margin-left: 40px;
+}
+
